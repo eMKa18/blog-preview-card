@@ -3,6 +3,5 @@ img {
 }
 
 .post-image {
-    border: dotted 3px;
-    border-color: pink;
+    margin: 12pt;
 }
