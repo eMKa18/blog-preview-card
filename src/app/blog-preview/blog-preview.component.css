@@ -1,6 +1,9 @@
 .container {
     border: solid 1px;
     border-color: black;
-    border-radius: 12pt;
+    border-radius: var(--radius);
+    
+    /* The syntax is: box-shadow: offset-x offset-y blur-radius spread-radius color; */
+    box-shadow: 6pt 6pt 0 0 black;
     background-color: var(--background-color);
 }

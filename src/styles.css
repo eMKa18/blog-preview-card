@@ -14,6 +14,9 @@
     /* font styles */
     --font-regular: 500;
     --font-bold: 800;
+
+    /* border radius */
+    --radius: 12pt;
 }
 
 body {
