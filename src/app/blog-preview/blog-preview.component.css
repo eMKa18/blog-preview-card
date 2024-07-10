@@ -1,4 +1,4 @@
 .container {
-    border: solid 1px;
-    display: block;
+    border: solid 3px;
+    border-color: olivedrab;
 }

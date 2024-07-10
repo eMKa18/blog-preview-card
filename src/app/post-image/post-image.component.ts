@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-post-image',
+  selector: 'post-image',
   standalone: true,
   imports: [],
   templateUrl: './post-image.component.html',
