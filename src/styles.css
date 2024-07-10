@@ -1,1 +1,22 @@
-/* You can add global styles to this file, and also import other style files */
+:root {
+    /* primary color */
+    --primary-color: hsl(47 88% 63%);
+    
+    /* neutral colors */
+    --background-color: hsl(0 0% 100%);
+    --text-color: hsl(0 0% 7%);
+    --light-text-color: hsl(0 0% 50%);
+
+    /* font size */
+    --font-size: 16px;
+    --font-family: 'Figtree', sans-serif;
+    
+    /* font styles */
+    --font-regular: 500;
+    --font-bold: 800;
+}
+
+body {
+    background-color: var(--background-color);
+    font-family: var(--font-family);
+}
