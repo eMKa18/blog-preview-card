@@ -1,12 +1,15 @@
+import { CommonModule, NgFor } from '@angular/common';
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-tags',
+  selector: 'tags',
   standalone: true,
-  imports: [],
+  imports: [NgFor],
   templateUrl: './tags.component.html',
   styleUrl: './tags.component.css'
 })
 export class TagsComponent {
+
+  postTags: string[] = ["Learning", "Adventures"]
 
 }
