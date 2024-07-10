@@ -1,4 +1,4 @@
-import { CommonModule, NgFor } from '@angular/common';
+import { NgFor } from '@angular/common';
 import { Component } from '@angular/core';
 
 @Component({
@@ -10,6 +10,6 @@ import { Component } from '@angular/core';
 })
 export class TagsComponent {
 
-  postTags: string[] = ["Learning", "Adventures"]
+  postTags: string[] = ["Learning"]
 
 }

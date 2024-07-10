@@ -6,4 +6,7 @@
     /* The syntax is: box-shadow: offset-x offset-y blur-radius spread-radius color; */
     box-shadow: 6pt 6pt 0 0 black;
     background-color: var(--background-color);
+
+    display: flex;
+    flex-direction: column;
 }
