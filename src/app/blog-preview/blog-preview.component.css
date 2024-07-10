@@ -1,4 +1,6 @@
 .container {
-    border: solid 3px;
-    border-color: olivedrab;
+    border: solid 1px;
+    border-color: black;
+    border-radius: 12pt;
+    background-color: var(--background-color);
 }
