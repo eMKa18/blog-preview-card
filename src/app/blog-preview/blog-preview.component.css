@@ -75,13 +75,16 @@ h2 {
 
 .author {
     display: flex;
+    border: solid red;
+    justify-content: flex-start;
 }
 
 .author > img {
-    /* margin: 0; */
+    scale: 50%;
 }
 
 .author > p {
     font-weight: var(--font-bold);
-    border: dotted red;
+    font-size: small;
+    align-self: center;
 }
