@@ -1,15 +1,19 @@
 import { Component } from '@angular/core';
-import { PostImageComponent } from "../post-image/post-image.component";
-import { TagsComponent } from '../tags/tags.component';
-import { PublishedDateComponent } from '../published-date/published-date.component';
+import { DatePipe, NgFor } from '@angular/common';
 
 @Component({
   selector: 'blog-preview',
   standalone: true,
-  imports: [PostImageComponent, TagsComponent, PublishedDateComponent],
+  imports: [NgFor, DatePipe],
   templateUrl: './blog-preview.component.html',
   styleUrl: './blog-preview.component.css'
 })
 export class BlogPreviewComponent {
+
+  postTags: string[] = ["Learning"]
+  date: Date = new Date("12/21/2023");
+  title: string = "HTML & CSS foundations";
+  abstract: string = "These languages are the backbone of every website, defining structure, content, and presentation.";
+  name: string = "Greg Hooper";
 
 }

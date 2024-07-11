@@ -1,5 +1,21 @@
 <div class="container">
-    <post-image></post-image>
-    <tags></tags>
-    <published-date></published-date>
+    <div class="post-image">
+        <img src="../assets/images/illustration-article.svg" alt="Article illustration" />
+    </div>
+    <div class="tags">
+        <ul>
+            <li class="tag" *ngFor="let post of postTags">{{ post }}</li>
+        </ul>
+    </div>
+    <div class="published">
+        <p>Published {{ date | date:'d MMM y' }}</p>
+    </div>
+    <div class="title-container">
+        <h1 class="title">{{ title }}</h1>
+        <h2 class="abstract">{{ abstract }}</h2>
+        <div class="author">
+            <img src="" alt="" />
+            <p>{{ name }}</p>
+        </div>
+    </div>
 </div>
