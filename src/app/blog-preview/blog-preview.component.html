@@ -7,10 +7,10 @@
             <li class="tag" *ngFor="let post of postTags">{{ post }}</li>
         </ul>
     </div>
-    <div class="published">
-        <p>Published {{ date | date:'d MMM y' }}</p>
-    </div>
     <div class="title-container">
+        <div class="published">
+            <p>Published {{ date | date:'d MMM y' }}</p>
+        </div>
         <h1 class="title">{{ title }}</h1>
         <h2 class="abstract">{{ abstract }}</h2>
         <div class="author">
