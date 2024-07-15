@@ -73,12 +73,10 @@ h2 {
     font-size: var(--font-size);
     font-weight: var(--font-regular);
     color: var(--light-text-color);
-    /* border: dotted red; */
 }
 
 .author {
     display: flex;
-    /* border: solid red; */
     justify-content: flex-start;
     padding-top: 0;
 }
@@ -86,13 +84,11 @@ h2 {
 .author > img {
     scale: 50%;
     margin-left: -13pt;
-    /* border: dotted red; */
 }
 
 .author > p {
     font-weight: var(--font-bold);
     font-size: small;
     align-self: center;
-    /* border: dotted red; */
     margin-left: -5pt;
 }
