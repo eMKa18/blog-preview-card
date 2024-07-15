@@ -67,6 +67,10 @@ h1, h2 {
 
 h1 {
     font-weight: var(--font-bold);
+    &:hover {
+        color: var(--primary-color);
+        cursor: pointer;
+    }
 }
 
 h2 {
